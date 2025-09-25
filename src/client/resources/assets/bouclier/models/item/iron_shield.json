@@ -1,0 +1,29 @@
+{
+	"parent": "bouclier:item/iron_shield_template",
+	"gui_light": "front",
+    "display": {
+      "thirdperson_righthand": {
+        "rotation": [0, 90, 0],
+        "translation": [3, -2, 1]
+      },
+      "thirdperson_lefthand": {
+        "rotation": [0, -90, 0],
+        "translation": [3, -2, 1]
+      },
+      "ground": {
+        "translation": [0, 1.25, 1.75],
+        "scale": [0.5, 0.5, 0.5]
+      },
+      "gui": {
+        "rotation": [12, 160, 0]
+      }
+    },
+	"overrides": [
+		{
+			"predicate": {
+				"blocking": 1
+			},
+			"model": "bouclier:item/iron_shield_blocking"
+		}
+	]
+}

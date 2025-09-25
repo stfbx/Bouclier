@@ -1,0 +1,25 @@
+{
+	"parent": "bouclier:item/stone_shield_template",
+	"gui_light": "front",
+    "display": {
+      "thirdperson_righthand": {
+        "rotation": [30, -23, 0],
+        "translation": [0.25, 0.25, -0.5]
+      },
+      "thirdperson_lefthand": {
+        "rotation": [30, -23, 0],
+        "translation": [0.25, 0.25, -0.5]
+      },
+      "firstperson_righthand": {
+        "rotation": [0, 0, 9],
+        "translation": [-3.5, 3.5, 2.75]
+      },
+      "firstperson_lefthand": {
+        "rotation": [0, 0, 9],
+        "translation": [-3.5, 3.5, 2.75]
+      },
+      "gui": {
+        "rotation": [12, 160, 0]
+      }
+    }
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "bouclier",
+  "version": "${version}",
+  "name": "Bouclier",
+  "description": "More shields for your protection!",
+  "authors": ["stfbx"],
+  "contact": {},
+  "license": "GPL-3.0",
+  "icon": "assets/bouclier/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "stfbx.bouclier.client.BouclierClient"
+    ],
+    "main": [
+      "stfbx.bouclier.Bouclier"
+    ]
+  },
+  "mixins": [
+    "bouclier.mixins.json",
+    {
+      "config": "bouclier.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
