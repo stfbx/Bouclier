@@ -17,13 +17,6 @@
       "stfbx.bouclier.Bouclier"
     ]
   },
-  "mixins": [
-    "bouclier.mixins.json",
-    {
-      "config": "bouclier.client.mixins.json",
-      "environment": "client"
-    }
-  ],
   "depends": {
     "fabricloader": ">=${loader_version}",
     "fabric": "*",
