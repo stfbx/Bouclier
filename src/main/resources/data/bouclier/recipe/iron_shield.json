@@ -7,14 +7,14 @@
   ],
   "key": {
     "L": {
-      "tag": "minecraft:logs"
+      "item": "bouclier:stone_shield"
     },
     "S": {
-      "item": "minecraft:stick"
+      "item": "minecraft:iron_ingot"
     }
   },
   "result": {
-    "item": "bouclier:wooden_shield"
+    "id": "bouclier:iron_shield"
   }
 }
 

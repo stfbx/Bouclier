@@ -7,14 +7,14 @@
   ],
   "key": {
     "L": {
-      "item": "bouclier:stone_shield"
+      "item": "bouclier:wooden_shield"
     },
     "S": {
-      "item": "minecraft:iron_ingot"
+      "item": "minecraft:cobblestone"
     }
   },
   "result": {
-    "item": "bouclier:iron_shield"
+    "id": "bouclier:stone_shield"
   }
 }
 

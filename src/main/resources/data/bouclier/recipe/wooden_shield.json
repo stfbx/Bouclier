@@ -7,14 +7,14 @@
   ],
   "key": {
     "L": {
-      "item": "bouclier:wooden_shield"
+      "tag": "minecraft:logs"
     },
     "S": {
-      "item": "minecraft:cobblestone"
+      "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "bouclier:stone_shield"
+    "id": "bouclier:wooden_shield"
   }
 }
 
