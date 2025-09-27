@@ -13,13 +13,13 @@ import java.util.List;
 
 public class Bouclier implements ModInitializer {
     public static final Item WOODEN_SHIELD = new CustomShieldItem(null,
-            () -> Ingredient.ofItems(Items.IRON_INGOT),
+            () -> Ingredient.ofItems(Items.OAK_PLANKS),
             List.of(
             ),
             new Item.Settings().maxDamage(50));
 
     public static final Item STONE_SHIELD = new CustomShieldItem(null,
-            () -> Ingredient.ofItems(Items.IRON_INGOT),
+            () -> Ingredient.ofItems(Items.COBBLESTONE),
             List.of(
             ),
             new Item.Settings().maxDamage(250));
