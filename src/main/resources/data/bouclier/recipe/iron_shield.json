@@ -1,20 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "equipment",
   "pattern": [
     "SSS",
     "SLS",
     "SSS"
   ],
   "key": {
-    "L": {
-      "item": "bouclier:stone_shield"
-    },
-    "S": {
-      "item": "minecraft:iron_ingot"
-    }
+    "L": "bouclier:stone_shield",
+    "S": "minecraft:iron_ingot"
   },
   "result": {
     "id": "bouclier:iron_shield"
   }
 }
-

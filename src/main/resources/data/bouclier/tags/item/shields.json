@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "bouclier:wooden_shield",
+    "bouclier:stone_shield",
+    "bouclier:iron_shield"
+  ]
+}

@@ -10,9 +10,6 @@
   "icon": "assets/bouclier/icon.png",
   "environment": "*",
   "entrypoints": {
-    "client": [
-      "stfbx.bouclier.client.BouclierClient"
-    ],
     "main": [
       "stfbx.bouclier.Bouclier"
     ]
