@@ -6,12 +6,8 @@
     "SSS"
   ],
   "key": {
-    "L": {
-      "item": "bouclier:wooden_shield"
-    },
-    "S": {
-      "item": "minecraft:cobblestone"
-    }
+    "L": "bouclier:wooden_shield",
+    "S": "minecraft:cobblestone"
   },
   "result": {
     "id": "bouclier:stone_shield"

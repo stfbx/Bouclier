@@ -6,12 +6,8 @@
     "SSS"
   ],
   "key": {
-    "L": {
-      "tag": "minecraft:logs"
-    },
-    "S": {
-      "item": "minecraft:stick"
-    }
+    "L": "#minecraft:logs",
+    "S": "minecraft:stick"
   },
   "result": {
     "id": "bouclier:wooden_shield"
